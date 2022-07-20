@@ -5,4 +5,33 @@
 //  Created by Olga Yurchuk on 19.07.2022.
 //
 
-import Foundation
+struct Contact {
+    let name: String
+    let surname: String
+    let phoneNumber: String
+    let email: String
+    
+    static func getContacts() -> [Contact] {
+        
+        var dataArrays = DataManager()
+        var countNames = dataArrays.names.count
+        var contacts : [Contact] = []
+        
+        dataArrays.names.shuffle()
+        
+        for name in dataArrays.names {
+            let contact = Contact(name: name,
+                    surname: dataArrays.surnames.remove(at: Int.random(in: 0..<countNames)),
+                    phoneNumber: dataArrays.phoneNumbers.remove(at: Int.random(in: 0..<countNames)),
+                    email: dataArrays.emails.remove(at: Int.random(in: 0..<countNames)))
+            countNames -= 1
+            contacts += [contact]
+        }
+        
+        for contact in contacts {
+            print("name: \(contact.name), surname: \(contact.surname), phonenumber: \(contact.phoneNumber), email: \(contact.email)")
+        }
+        
+        return contacts
+    }
+}

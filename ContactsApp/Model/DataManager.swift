@@ -6,8 +6,8 @@
 //
 
 
-class DataManager {
-    let names = [
+struct DataManager {
+    var names = [
         "Valera",
         "Seryoga",
         "Johny",
@@ -18,7 +18,7 @@ class DataManager {
         "Pasha"
     ]
     
-    let surnames = [
+    var surnames = [
         "Ivanov",
         "Suvorov",
         "Pyatnov",
@@ -29,7 +29,7 @@ class DataManager {
         "Putnov"
     ]
     
-    let phoneNumbers = [
+    var phoneNumbers = [
         "1234567890",
         "1234567891",
         "1234567892",
@@ -40,7 +40,7 @@ class DataManager {
         "1234567897"
     ]
     
-    let emails = [
+    var emails = [
         "1a@shmail.ru",
         "2b@shmail.ru",
         "3c@shmail.ru",
@@ -50,5 +50,4 @@ class DataManager {
         "7g@shmail.ru",
         "8h@shmail.ru",
     ]
-    
 }
