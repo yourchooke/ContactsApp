@@ -85,11 +85,11 @@
             </objects>
             <point key="canvasLocation" x="864" y="757"/>
         </scene>
-        <!--Item-->
+        <!--Expanded list-->
         <scene sceneID="Gnq-p8-Bwe">
             <objects>
                 <navigationController id="eGM-ZB-8gx" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Qdg-1H-3EC"/>
+                    <tabBarItem key="tabBarItem" title="Expanded list" image="person.text.rectangle.fill" catalog="system" id="Qdg-1H-3EC"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="KM2-ox-LBZ">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -102,11 +102,11 @@
             </objects>
             <point key="canvasLocation" x="112" y="758"/>
         </scene>
-        <!--Item-->
+        <!--Short list-->
         <scene sceneID="XER-jh-piq">
             <objects>
                 <navigationController id="XU9-AR-G5C" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="3Br-Hv-XLM"/>
+                    <tabBarItem key="tabBarItem" title="Short list" image="person.3.sequence.fill" catalog="system" id="3Br-Hv-XLM"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="gWD-8G-L0c">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -124,7 +124,7 @@
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="cGE-E8-6zL" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dJJ-Lx-sSk">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" backgroundImage="person.3.sequence" catalog="system" id="dJJ-Lx-sSk">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -139,6 +139,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="person.3.sequence" catalog="system" width="128" height="59"/>
+        <image name="person.3.sequence.fill" catalog="system" width="128" height="58"/>
+        <image name="person.text.rectangle.fill" catalog="system" width="128" height="93"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

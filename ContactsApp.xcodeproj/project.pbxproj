@@ -16,6 +16,8 @@
 		27D23DB8288592F20073992A /* ContactsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D23DB7288592F20073992A /* ContactsListViewController.swift */; };
 		27D23DBB288703140073992A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D23DBA288703140073992A /* DataManager.swift */; };
 		27D23DBD288703350073992A /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D23DBC288703350073992A /* Contact.swift */; };
+		27D23DBF288953A20073992A /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D23DBE288953A20073992A /* MainTabBarViewController.swift */; };
+		27D23DC1288955970073992A /* ExpandedContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D23DC0288955970073992A /* ExpandedContactListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		27D23DB7288592F20073992A /* ContactsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsListViewController.swift; sourceTree = "<group>"; };
 		27D23DBA288703140073992A /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		27D23DBC288703350073992A /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		27D23DBE288953A20073992A /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		27D23DC0288955970073992A /* ExpandedContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedContactListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				27D23DA52885919D0073992A /* SceneDelegate.swift */,
 				27D23DA72885919D0073992A /* ViewController.swift */,
 				27D23DB7288592F20073992A /* ContactsListViewController.swift */,
+				27D23DBE288953A20073992A /* MainTabBarViewController.swift */,
+				27D23DC0288955970073992A /* ExpandedContactListViewController.swift */,
 				27D23DA92885919D0073992A /* Main.storyboard */,
 				27D23DAC288591A00073992A /* Assets.xcassets */,
 				27D23DAE288591A00073992A /* LaunchScreen.storyboard */,
@@ -157,7 +163,9 @@
 			files = (
 				27D23DBD288703350073992A /* Contact.swift in Sources */,
 				27D23DA82885919D0073992A /* ViewController.swift in Sources */,
+				27D23DC1288955970073992A /* ExpandedContactListViewController.swift in Sources */,
 				27D23DBB288703140073992A /* DataManager.swift in Sources */,
+				27D23DBF288953A20073992A /* MainTabBarViewController.swift in Sources */,
 				27D23DA42885919D0073992A /* AppDelegate.swift in Sources */,
 				27D23DB8288592F20073992A /* ContactsListViewController.swift in Sources */,
 				27D23DA62885919D0073992A /* SceneDelegate.swift in Sources */,
