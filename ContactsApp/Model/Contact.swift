@@ -28,10 +28,6 @@ struct Contact {
             contacts += [contact]
         }
         
-        for contact in contacts {
-            print("name: \(contact.name), surname: \(contact.surname), phonenumber: \(contact.phoneNumber), email: \(contact.email)")
-        }
-        
         return contacts
     }
 }
