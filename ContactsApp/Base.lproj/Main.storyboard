@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--Persons List-->
         <scene sceneID="evN-z9-w76">
             <objects>
                 <tableViewController id="1Fb-e6-YtA" customClass="ContactsListViewController" customModule="ContactsApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="NNM-di-D93">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="shortContactID" id="NNM-di-D93">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NNM-di-D93" id="hzM-oM-gn1">
@@ -34,7 +34,7 @@
                             <outlet property="delegate" destination="1Fb-e6-YtA" id="D8c-1A-o6V"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="RBU-e4-Mlk"/>
+                    <navigationItem key="navigationItem" title="Persons List" leftItemsSupplementBackButton="YES" largeTitleDisplayMode="always" id="RBU-e4-Mlk"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DP5-5m-asm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -107,8 +107,8 @@
             <objects>
                 <navigationController id="XU9-AR-G5C" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="3Br-Hv-XLM"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gWD-8G-L0c">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="gWD-8G-L0c">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
