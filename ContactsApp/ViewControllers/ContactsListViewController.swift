@@ -30,6 +30,11 @@ class ContactsListViewController: UITableViewController {
         
         return cell
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let contact = contactList[indexPath.row]
+        performSegue(withIdentifier: "showDetails", sender: contact)
+    }
 
     /*
     // Override to support conditional editing of the table view.
@@ -66,7 +71,6 @@ class ContactsListViewController: UITableViewController {
     }
     */
 
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -74,6 +78,6 @@ class ContactsListViewController: UITableViewController {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
-    */
+
 
 }
