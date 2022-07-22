@@ -15,13 +15,36 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contacts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KTn-tb-2yl">
+                                <rect key="frame" x="133" y="425" width="148" height="46"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👨‍🎓👩🏽‍🚒👩🏻‍🎤" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XxN-2K-Y8Z">
+                                <rect key="frame" x="124.5" y="336" width="165" height="81"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="81" id="lkg-Tq-gFf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="XxN-2K-Y8Z" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="0wM-PC-Kfh"/>
+                            <constraint firstItem="KTn-tb-2yl" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ExG-3s-JWf"/>
+                            <constraint firstItem="KTn-tb-2yl" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="JYA-Qv-1JJ"/>
+                            <constraint firstItem="XxN-2K-Y8Z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="292" id="OUd-IS-nP0"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
     <resources>
