@@ -84,7 +84,7 @@
             </objects>
             <point key="canvasLocation" x="1600.0000000000002" y="32.8125"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Expanded Persons List-->
         <scene sceneID="TwU-UO-E1S">
             <objects>
                 <tableViewController id="ZgE-hu-HXp" customClass="ExpandedContactListViewController" customModule="ContactsApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -107,7 +107,7 @@
                             <outlet property="delegate" destination="ZgE-hu-HXp" id="ysT-NW-wII"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="QQh-x6-Txp"/>
+                    <navigationItem key="navigationItem" title="Expanded Persons List" id="QQh-x6-Txp"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UYV-h8-Qt5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
