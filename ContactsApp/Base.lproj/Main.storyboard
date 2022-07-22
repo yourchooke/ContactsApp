@@ -40,16 +40,16 @@
             </objects>
             <point key="canvasLocation" x="865" y="33"/>
         </scene>
-        <!--View Controller-->
+        <!--Details View Controller-->
         <scene sceneID="Yhl-Hs-54r">
             <objects>
-                <viewController id="pkg-PY-2R0" sceneMemberID="viewController">
+                <viewController id="pkg-PY-2R0" customClass="DetailsViewController" customModule="ContactsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dMn-qV-ij0">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="jga-hP-07o">
-                                <rect key="frame" x="16" y="101" width="288" height="49"/>
+                                <rect key="frame" x="16" y="141" width="288" height="49"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qet-01-is7">
                                         <rect key="frame" x="0.0" y="0.0" width="288" height="20.5"/>
@@ -71,10 +71,14 @@
                         <constraints>
                             <constraint firstItem="jga-hP-07o" firstAttribute="leading" secondItem="hkn-1X-i34" secondAttribute="leading" constant="16" id="Elt-Ot-Td5"/>
                             <constraint firstItem="hkn-1X-i34" firstAttribute="trailing" secondItem="jga-hP-07o" secondAttribute="trailing" constant="16" id="Ti8-F4-bcM"/>
-                            <constraint firstItem="jga-hP-07o" firstAttribute="top" secondItem="hkn-1X-i34" secondAttribute="top" constant="10" id="nq0-v3-S6t"/>
+                            <constraint firstItem="jga-hP-07o" firstAttribute="top" secondItem="hkn-1X-i34" secondAttribute="top" constant="50" id="nq0-v3-S6t"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="g5l-XG-kw4"/>
+                    <connections>
+                        <outlet property="emailLabel" destination="AWU-U2-DxG" id="3Qe-ic-Py6"/>
+                        <outlet property="phoneNumberLabel" destination="Qet-01-is7" id="9rv-Lq-jJx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xkf-uC-WDl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -149,6 +153,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="cGE-E8-6zL" customClass="MainTabBarViewController" customModule="ContactsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" backgroundImage="person.3.sequence" catalog="system" id="dJJ-Lx-sSk">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
