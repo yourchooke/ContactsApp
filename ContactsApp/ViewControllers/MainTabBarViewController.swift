@@ -19,7 +19,7 @@ class MainTabBarViewController: UITabBarController {
     private func sendContacts(){
         for viewController in viewControllers! {
             if let navigationVC = viewController as? UINavigationController {
-                if let shortListVC = navigationVC.topViewController as? ContactsListViewController {
+                if let shortListVC = navigationVC.topViewController as? ShortContactsListViewController {
                     shortListVC.contactList = contactList
                 } else if let expandedListVC = navigationVC.topViewController as? ExpandedContactListViewController {
                     expandedListVC.contactList = contactList
